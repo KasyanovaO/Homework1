@@ -22,4 +22,5 @@ if (number3 > max)
 {
     max = number3;
 }
+Console.WriteLine("max=");
 Console.WriteLine(max);
