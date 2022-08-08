@@ -8,6 +8,7 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 2 ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 int max = 0;
+int min = 0;
 if (number1 > number2)
 {
     max = number1;
@@ -16,4 +17,15 @@ else
 {
     max = number2;
 }
+Console.WriteLine("max=");
 Console.WriteLine(max);
+if (number1 < number2)
+{
+    min = number1;
+}
+else
+{
+    min = number2;
+}
+Console.WriteLine("min=");
+Console.WriteLine(min);
